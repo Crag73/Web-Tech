@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    ol{
+    list-style: none;
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   width: 100%;
+   align-items: center;
+}
+
+div{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+button{
+    margin: 0px 3px;
+}
+  </style>
+</head>
+<body>
+
+
+    <ol >
+        <li id="list-a"></li>
+        <li id="list1">A. I am an engineer </li>
+        <li id="list-ib"></li>
+        <li id="list2">K. This web Technology </li>
+        <li id="list3">6. I got 10 CGPA </li>
+    </ol>
+    <div>
+    <button id='btn1' onclick="Replace()">Replace</button>
+    <button id='btn1' onclick="append()">append</button>
+    <button id='btn1' onclick="Insertbefore()">Insert before</button>
+    <button id='btn1' onclick="remove()">Remove</button></div>
+    <script>
+      function Replace(){
+    let A= document.getElementById("list1");
+    list1.innerHTML="I am a BE Student"
+}
+function append(){
+    let a=document.getElementById("list-a");
+    a.innerHTML="Advance Web Technology";
+    a.style.listStyle="disc";
+}
+function Insertbefore(){
+    let c=document.getElementById("list-ib");
+    c.innerHTML="Discrete Structure";
+    c.style.listStyle="disc";
+    c.style.marginLeft="-50px"
+}
+function remove(){
+    d=document.getElementById("list-ib");
+    d.style.display="none";
+}
+    </script>
+</body>
+</html>

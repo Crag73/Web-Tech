@@ -1,0 +1,49 @@
+.con div{
+    border:2px green solid;
+    padding: 10px;
+}
+.con{
+    display:flex;
+    border:2px blue solid;
+    padding: 50px;
+    height:500px;
+    width:800px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items:center;
+
+}
+.b1{
+    height:100px;
+    width:200px;
+    padding: 10px;
+    margin: 2px;
+    order:2;    
+}
+.b2{
+    height:120px;
+    width:250px;
+    padding: 10px;
+    margin: 2px;
+    order: 1;
+}
+.b3{
+    height:200px;
+    width:100px;
+    padding: 10px;
+    margin: 2px;
+    background-image: linear-gradient(red,red,yellow);
+}
+.c1{
+    z-index: 1;
+    height:100px;
+    width:200px;
+    background-color: red;
+    position:relative;
+}
+
+.c2{
+    z-index: 2 ;
+    position: relative;
+    bottom:100px;
+}

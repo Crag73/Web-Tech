@@ -1,0 +1,71 @@
+
+h1 {color:Blue; font-family:cursive;}
+h2 {color:Green; font-family:fantasy;}
+h3 {color:Yellow;   font-style: normal;}
+h4 {color:Cyan; font-family: monospace;}
+h5 {color:Red; font-style: oblique;}
+h6 {color:Purple; font-style: italic;}
+
+
+.CLP{
+  color:Purple;
+}
+.CLG{
+  color:hsl(100, 71%, 82%);
+}
+.CLG2{
+  color:rgb(198, 242, 177);
+}
+.CLG3{
+  color:#38ffa2
+}
+.CLI{
+    font-size:25px; font-style:italic;
+}
+
+.C1{
+ color:Tomato;
+}
+.C2{
+  font-weight: lighter;
+}
+.C3{
+  color:Brown;
+}
+.C4{
+  font-family: cursive;
+}
+.C5{
+  color: Orange;
+}
+.C6{
+  font-weight: bolder;
+}
+.C7{
+  color:blue;
+}
+.C8{
+  font-family: fantasy;
+}
+.C9{
+  color: #ff6347
+}
+.C10{
+  font-weight: bold;
+}
+.CBox{
+  width:800px;
+  margin:40px;
+  padding-left:50px;
+  padding-right:30px;
+  padding-top:20px;
+  padding-bottom:30px;
+  border: 5px solid;
+  background-color: Cyan;
+}
+
+table,th,td{
+  border:2px solid black;
+  width:900px;
+  height:100px;
+}

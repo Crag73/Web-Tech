@@ -1,0 +1,20 @@
+.Tr1{
+    position: absolute;
+    width:100px;
+    height:100px;
+    background-color: tomato;
+    top:300px;
+    left:100px;
+    transform:rotateZ(45deg)
+
+
+}
+.Tr2{
+    width:20px;
+    height:100px;
+    position:relative;
+    left:100px;
+    background-color: black;
+    transform:rotateZ(100deg) translateX(10px);
+
+}

@@ -1,0 +1,38 @@
+.a{
+    width:200px;
+    height:200px;
+    background-color:aqua;
+    animation-name:testa;
+    animation-duration: 2s;
+    
+}
+@keyframes testa{
+    from {background-color:aqua;}
+    to {background-color:black;}
+}
+.b{
+    position:relative;
+    width:100px;
+    background-color:aqua;
+    height:100px;
+    animation-name: testb;
+    animation-duration: 4s;
+}
+@keyframes testb {
+    0%   {background-color:black; left:0px; top:0px;}
+    25%  {background-color:green; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:yellow; left:0px; top:200px;}
+    100% {background-color:aqua; left:0px; top:0px;}
+  }
+.c{
+    width:100px;
+    background-color:aqua;
+    height:100px;
+    animation-name: testc;
+    animation-duration: 3s;
+}
+@keyframes testc {
+    0% {border-radius:0% ;}
+    50% {border-radius: 50%;}
+}

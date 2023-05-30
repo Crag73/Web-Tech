@@ -1,0 +1,99 @@
+<!Doctype html>
+<html>
+<head>
+  <title>
+
+  </title>
+</head>
+<body>
+  <div>
+    <h1> Time Table </h1>
+    <table border=1>
+      <tr>
+        <th> S.No </th>
+        <th> Day </th>
+        <th> 9:00-9:55 </th>
+        <th> 9:55-11:45 </th>
+      </tr>
+      <tr>
+        <td> 1 </td>
+        <td> Monday </td>
+        <td> MCP </td>
+        <td> IWT </td>
+      </tr>
+      <tr>
+        <td> 2 </td>
+        <td> Tuesday </td>
+        <td> MCP </td>
+        <td> IWT </td>
+      </tr>
+      <tr>
+        <td> 3 </td>
+        <td> Wednesday </td>
+        <td> MCP </td>
+        <td> IWT </td>
+      </tr>
+      <tr>
+        <td> 4 </td>
+        <td> Thursday </td>
+        <td> MCP </td>
+        <td> IWT </td>
+      </tr>
+      <tr>
+        <td> 5 </td>
+        <td> Friday </td>
+        <td> MCP </td>
+        <td> IWT </td>
+      </tr>
+      <tr>
+        <td> 6 </td>
+        <td> Saturday </td>
+        <td>  </td>
+        <td>  </td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <form>
+      <label for="N"> Name </label>
+      <input type="text" id="N" placeholder="Name" name="N" required> </input>
+      <br>
+      <label for="date"> Date </label>
+      <input type="date" id="date" name="date" required> </input>
+      <br>
+      <label for="int"> Roll No </label>
+      <input type="number" id="int" placeholder="Roll No" name="int" required min=10 max=100> </input>
+      <br>
+      <label for="mail"> E-mail </label>
+      <input type="email" id="mail" placeholder="E-Mail" name="mail" required > </input>
+      <br>
+      <label for="checkbox"> Gender </label>
+      <br>
+      <input type="radio" id="checkbox" name="checkbox" value=1>Male </input>
+      <input type="radio" id="checkbox" name="checkbox" value=2>Female </input>
+      <input type="radio" id="checkbox" name="checkbox" value=3>Other </input>
+      <br>
+    <fieldset style=width:200px>
+      <legend> Gender </legend>
+      <input type="checkbox" id="c" name="ch1" value=1>Male </input>
+      <br>
+      <input type="checkbox" id="c" name="ch2" value=1>Female </input>
+      <br>
+      <input type="checkbox" id="c" name="ch3"value=1>Other </input>
+    </fieldset>
+      <br>
+    <label for="G"> Gender </label>
+    <br>
+    <select name="gend" id="G">
+      <option value="Male"> Male </option>
+      <option value="Female"> Female </option>
+      <option value="Other"> Other </option>
+    </select>
+    <br>
+    <br>
+      <button type="submit" value=1> Submit </button>
+      <button type="reset"> Reset </button>
+    </form>
+  </div>
+</body>
+</html>

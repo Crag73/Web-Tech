@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>javascript</title>
+    <link rel="stylesheets" type="text/CSS" href="jav.css">
+</head>
+<body>
+    <p id="test"></p><br>
+    <p id="test2"></p>
+    <script>
+    function ad(a,b){
+        return a+b;
+    }
+    function multi(a,b){
+        return a*b;
+    }
+    function sub(a,b){
+        return a-b;
+    }
+    function mod(a,b){
+        return a%b;
+    }
+    function div(a,b){
+        return a/b
+    }
+    let x=ad(5,7);
+    let a=sub(5,7);
+    let b=multi(5,7);
+    let c=div(5,7);
+    let d=mod(5,7);
+
+
+    function fif(c){
+        var z=function y(c){
+            return c+3
+        }
+    return z(c);
+    }
+
+    let e=fif(5);
+
+    document.getElementById("test").innerHTML=x+"<br>"+a+"<br>"+b+"<br>"+c+"<br>"+d;
+    document.getElementById("test2").innerHTML=e;
+
+
+    for (var y=0;y<11;y++){
+        console.log("y",y);
+    }
+
+    for (var j=0;j<5;j++){
+        for (var k=0;k<=j;k++){
+            console.log("*");
+        } 
+        console.log("")
+    }
+    </script>
+</body>

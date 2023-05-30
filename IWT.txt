@@ -1,0 +1,31 @@
+26/11
+
+1.History of web
+2. Client-Server architecture
+3. What is front end and back end
+4. What happens when u visit a particular website
+
+29/11
+
+1. Commenting , Paragraph and <hr> tag <pre> </pre> in html.
+2. ordered , unordered , definition list and nested lists.
+3. image insertion (img src) and hyperlink = <a href="">.
+
+30/11
+
+1. hyperlink in image
+2. division tag
+3. sementing tag
+4. text formatting tag
+5. div id , #
+
+1/12
+
+1.Table , colspan etc
+2. form , label (for) ,input(type , id , value , name , placeholder,required)
+
+2/12
+
+1. checkbox ,radio in form
+2. dropdown menu , text area
+3. button , action , method , get ,post
